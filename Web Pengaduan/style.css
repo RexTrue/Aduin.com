@@ -1,0 +1,125 @@
+.body {
+    font-family: 'Mukta', sans-serif;
+    font-style: bold;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: transparent;
+    overflow: hidden;
+    margin: 50px;
+    justify-content: center;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: rgb(247, 80, 80);
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    color: black;
+  }
+
+  .topnav button {
+    background-color: transparent;
+    border: #044a04;
+    color: black;
+    padding: 15px 25px;
+    display: block;
+    position: relative;
+    float: right;
+  }
+
+  .container {
+    text-align: center;
+  }
+
+.container h6 {
+margin-top: 30px;
+}
+
+.Laporan {
+    align-items: center;
+    justify-content: center;
+    max-width: 900px;
+    margin-top: 100px;
+    padding-top: 30px;
+    padding-bottom: 70px;
+    -webkit-box-shadow: 0px 5px 30px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 5px 30px 0px rgba(0,0,0,0.5);
+    box-shadow: 0px 5px 30px 0px rgba(0,0,0,0.5);
+    background-color: white;
+}
+
+.Laporan input {
+    display: inline-block;
+    text-align: left;
+    vertical-align: top;
+    padding: 8px 10px;
+    margin: 20px;
+    width: 90%;
+    border: 1px solid #ccc;
+}
+
+.container h5 {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 20px ;
+    padding-bottom: 20px;
+    padding: 10px;
+    background-color: rgb(247, 80, 80);
+    border-radius: 20px;
+    color: white;
+}
+
+.Laporan button{
+    background-color: rgb(247, 80, 80);
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+    position: relative;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    margin-right: 34px;
+    float: right;
+    font-style: bold;
+    font-size: 16px;
+}
+
+.Pelajari {
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(247, 80, 80);
+    color: rgb(0, 0, 0);
+    padding: 10px 25px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+    position: relative;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-style: bold;
+}
+
+.Pelajari:hover {
+    transition: .2s;
+    background-color: rgb(247, 80, 80);
+    color: white;
+}
